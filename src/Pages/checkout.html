@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="../css/checkout.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="../css/shop.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/lib/bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../../assets/lib/bootstrap-4.4.1-dist/font-awesome-4.7.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="../../assets/lib/bootstrap-4.4.1-dist/themify-icons/themify-icons.css" type="text/css">
+    <link rel="stylesheet" href="../../assets/lib/bootstrap-4.4.1-dist/bootstrap" type="text/css">
+    <link rel="stylesheet" href="../../assets/lib/bootstrap-4.4.1-dist/jquery-ui-1.12.1/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="../../assets/lib/bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/css/slicknav.min.css" type="text/css">
+</head>
+<body>
+    <div id="header">
+        <object type="text/html" data="/src/components/header.html" width="100%" height="300px"></object>
+    </div>
+
+    <section class="checkout-section spad">
+        <div class="container">
+            <form action="#" class="checkout-form">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="checkout-content">
+                            <a href="#" class="content-btn">Click Here To Login</a>
+                        </div>
+                        <h4>Biiling Details</h4>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <label for="fir">First Name<span>*</span></label>
+                                <input type="text" id="fir" class="form-control">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="last">Last Name<span>*</span></label>
+                                <input type="text" id="last" class="form-control">
+                            </div>
+                            <div class="col-lg-12">
+                                <label for="cun-name">Company Name</label>
+                                <input type="text" id="cun-name" class="form-control">
+                            </div>
+                            <div class="col-lg-12">
+                                <label for="cun">Country<span>*</span></label>
+                                <input type="text" id="cun" class="form-control">
+                            </div>
+                            <div class="col-lg-12">
+                                <label for="street">Street Address<span>*</span></label>
+                                <input type="text" id="street" class="form-control street-first">
+                                <input type="text"  class="form-control street-first">
+                            </div>
+                            <div class="col-lg-12">
+                                <label for="zip">Postcode / ZIP (optional)</label>
+                                <input type="text" id="zip" class="form-control">
+                            </div>
+                            <div class="col-lg-12">
+                                <label for="town">Town / City<span>*</span></label>
+                                <input type="text" id="town" class="form-control">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="email">Email Address<span>*</span></label>
+                                <input type="text" id="email" class="form-control">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="phone">Phone<span>*</span></label>
+                                <input type="text" id="phone" class="form-control">
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="create-item">
+                                    <label for="acc-create">
+                                        <input type="checkbox" id="acc-create">
+                                        <span class="checkmark"></span>
+                                        Create an account?
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="checkout-content">
+                            <input type="text" placeholder="Enter Your Coupon Code">
+                        </div>
+                        <div class="place-order">
+                            <h4>Your Order</h4>
+                            <div class="order-total">
+                                <ul class="order-table">
+                                    <li>Product <span>Total</span></li>
+                                    <li class="fw-normal">Combination x 1 <span>$60.00</span></li>
+                                    <li class="fw-normal">Combination x 1 <span>$60.00</span></li>
+                                    <li class="fw-normal">Combination x 1 <span>$120.00</span></li>
+                                    <li class="fw-normal">Subtotal <span>$240.00</span></li>
+                                    <li class="total-price">Total <span>$240.00</span></li>
+                                </ul>
+                                <div class="payment-check">
+                                    <div class="pc-item">
+                                        <label for="pc-check">
+                                            <input type="checkbox" id="pc-check">
+                                            <span class="checkmark"></span>
+                                            Cheque Payment
+                                        </label>
+                                    </div>
+                                    <div class="pc-item">
+                                        <label for="pc-paypal">
+                                            <input type="checkbox" id="pc-paypal">
+                                            <span class="checkmark"></span>
+                                            Paypal
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="order-btn d-flex justify-content-center align-items-center">
+                                    <button type="submit" class="site-btn place-btn">Place Order</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <div id="footer">
+        <object type="text/html" data="/src/components/footer.html" width="100%" height="460px"></object>
+    </div>
+    
+</body>
+</html>

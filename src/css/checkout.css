@@ -1,0 +1,154 @@
+.checkout-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.checkout-form {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.checkout-content {
+    margin-bottom: 20px;
+}
+
+.checkout-content input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.checkout-content label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.checkout-content span {
+    color: red;
+}
+
+.checkout-content .street-first {
+    margin-bottom: 10px;
+}
+
+.create-item {
+    margin-top: 15px;
+}
+
+.create-item input {
+    margin-left: 10px;
+}
+
+.place-order {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.order-total {
+    margin-bottom: 30px;
+}
+
+.order-table {
+    list-style: none;
+    padding: 0;
+}
+
+.order-table li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.total-price {
+    font-weight: bold;
+    color: #FFA500;
+}
+
+.payment-check {
+    margin-bottom: 20px;
+}
+
+.pc-item {
+    margin-bottom: 10px;
+}
+
+.pc-item input {
+    margin-left: 10px;
+}
+
+.order-btn .place-btn {
+    background-color: #050504;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.checkout-content input[type="text"] {
+    background-color: #f0f0f0;
+}
+
+.checkout-content input[type="text"]:focus {
+    outline: none;
+    border-color: #FFA500;
+}
+
+.checkout-content .content-btn {
+    display: block;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.checkout-content .content-btn:hover {
+    background-color: #ddd;
+}
+
+.checkout-content input[type="text"]::placeholder {
+    color: #888;
+}
+
+.checkout-section h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Tăng kích thước cho input và label */
+label {
+    font-size: 1.2rem; /* Tăng kích thước chữ label */
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input.form-control {
+    font-size: 1.1rem; /* Tăng kích thước chữ trong input */
+    padding: 15px; /* Tăng padding cho input */
+    margin-bottom: 15px;
+    border-radius: 5px; /* Tăng bo góc */
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+/* Đảm bảo khoảng cách hợp lý giữa các ô nhập liệu */
+.row {
+    margin-bottom: 25px;
+}
+
+/* Tăng kích thước checkbox */
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+

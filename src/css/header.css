@@ -1,0 +1,101 @@
+.header {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 20px;
+}
+
+.contact-info {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.login {
+    margin-left: 20px; 
+}
+
+/*Main header*/
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+.logo h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+}
+
+.search-bar select,
+.search-bar input {
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.search-bar input {
+    flex-grow: 1;
+}
+
+.search-bar button {
+    background-color: #e7ab3c;
+    border: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.cart {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+
+/*Navbar*/
+nav {
+    background-color: #1c0d0d; 
+    color: #fff;
+}
+
+nav ul {
+    display: flex; 
+    justify-content: center; 
+    padding: 20px;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px; 
+}
+
+nav ul li a {
+    color: #fff; 
+    text-decoration: none; 
+    font-size: 1.1rem; 
+    font-weight: 500; 
+}
+
+nav ul li a:hover {
+    text-decoration: underline; 
+}
